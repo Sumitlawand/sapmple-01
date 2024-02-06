@@ -1,0 +1,38 @@
+.Popular{
+  margin-bottom: 80px;
+    height: auto;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    
+    
+}
+.Popular h1{
+    font-weight: 600;
+    font-size: 50px;
+    color: #171717;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+
+}
+.Popular hr{
+    width: 30%;
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    height: 3px;
+    margin: auto;
+    background-color: #252525;
+}
+.populer_item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.items-row{
+  
+}

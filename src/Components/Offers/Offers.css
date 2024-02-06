@@ -1,0 +1,64 @@
+.offers{
+    background-image: linear-gradient(
+        0deg,
+        hsl(163deg 19% 93%) 0%,
+        hsl(173deg 25% 89%) 11%,
+        hsl(182deg 29% 86%) 22%,
+        hsl(190deg 36% 83%) 33%,
+        hsl(196deg 41% 81%) 44%,
+        hsl(201deg 45% 80%) 56%,
+        hsl(207deg 47% 78%) 67%,
+        hsl(214deg 46% 78%) 78%,
+        hsl(224deg 42% 77%) 89%,
+        hsl(240deg 34% 77%) 100%
+      );
+    
+    height: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+    padding:50px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.offers-right{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offers-right h1 {
+    color: #171717;
+    font-size: 80px;
+    font-weight: 600;
+    line-height:100px;
+}
+.offers-right p{
+    color: #171717;
+    font-size: 34px;
+    font-weight: 600;
+}
+.offers-right button{
+    width: 282px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #ff4141;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.offers-left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
