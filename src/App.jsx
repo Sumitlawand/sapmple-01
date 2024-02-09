@@ -7,6 +7,7 @@ import Shopecatagary from  './Components/Pages/Shopecatagary'
 import Card from './Components/Pages/Card'
 import Loginsingup from  "./Components/Pages/Loginsingup"
 import Product from './Components/Pages/Product'
+import { Footer } from './Components/Footer/Footer'
 function App() {
 
   return (
@@ -23,8 +24,9 @@ function App() {
 </Route>
 <Route path='/Card' element={<Card/>}/>
 <Route path='/Loginsingup' element={<Loginsingup/>}/>
+
 </Routes>
-    
+<Footer/>  
     </BrowserRouter>
     </>
   )
